@@ -49,4 +49,12 @@
       text-align: right;
     }
   }
+
+  .mxauto {
+    width: rem(1224);
+    margin: 0 auto;
+    @include mobile {
+      width: 100%;
+    }
+  }
 }
