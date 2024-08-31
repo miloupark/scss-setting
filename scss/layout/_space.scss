@@ -1,0 +1,35 @@
+@use "../abstracts/" as *;
+
+$mt: (4, 16, 20);
+$mr: (4, 16, 20);
+$mb: (4, 16, 20);
+$ml: (4, 16, 20);
+
+@layer Layout.Space {
+  // margin top
+  @each $margin in $mt {
+    .mt#{$margin} {
+      margin-top: rem($margin);
+    }
+  }
+
+  // margin right
+  @each $margin in $mr {
+    .mt#{$margin} {
+      margin-right: rem($margin);
+    }
+  }
+
+  // margin bottom
+  @each $margin in $mb {
+    .mt#{$margin} {
+      margin-bottom: rem($margin);
+    }
+  }
+  // margin left
+  @each $margin in $ml {
+    .mt#{$margin} {
+      margin-left: rem($margin);
+    }
+  }
+}
