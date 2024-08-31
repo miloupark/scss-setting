@@ -3,7 +3,7 @@
     "dev": "sass scss:css --watch",
     "build": "sass scss:build --style=compressed --no-source-map"
   },
-  "name": "scss-mobile-project",
+  "name": "scss-setting",
   "version": "1.0.0",
   "main": "index.js",
   "keywords": [],
