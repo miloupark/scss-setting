@@ -21,3 +21,5 @@ npm i
 ```bash
 npm run dev
 ```
+
+5. .gitignore에서 css 삭제 후 github에 업로드 (필요 시)
